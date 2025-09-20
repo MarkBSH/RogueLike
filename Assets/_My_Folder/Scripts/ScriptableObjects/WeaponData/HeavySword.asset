@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8554e8ba6ffee46a900fe941076a83, type: 3}
+  m_Name: HeavySword
+  m_EditorClassIdentifier: 
+  itemName: HeavySword
+  icon: {fileID: 21300000, guid: f7329a876087b3b469f7fd1434ebc39e, type: 3}
+  description: A slow but big sword, shoots a wind wave.
+  weaponObject: {fileID: 1720763837936461059, guid: ad8f6e5696c98f9448040c73a2566575, type: 3}
+  attackObject: {fileID: 4877251196916728816, guid: 9b34d3f02c3135745a9897a6a262f190, type: 3}
+  startAmmoCount: 1
+  maxAmmoCount: 0
+  hasInfiniteAmmo: 1
+  fullReloadTime: 2
+  timeBetweenShots: 2
+  timeForAnimator: 0.6
+  damage: 50
+  velocity: 10
+  recoil: 10
+  automatic: 1

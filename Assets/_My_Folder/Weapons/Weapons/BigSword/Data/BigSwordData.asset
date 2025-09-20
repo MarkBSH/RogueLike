@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8554e8ba6ffee46a900fe941076a83, type: 3}
+  m_Name: BigSwordData
+  m_EditorClassIdentifier: 
+  itemName: Big Sword
+  icon: {fileID: 21300000, guid: 443dc956c56cf47469dcd02b5f2c5937, type: 3}
+  description: A slow but big sword, shoots a wind wave.
+  weaponObject: {fileID: 1720763837936461059, guid: a52e6f99f9d55c0458d1356abd9f5219, type: 3}
+  attackObject: {fileID: 1426996726924800511, guid: 024041ff904ff22419c5671798ab9667, type: 3}
+  startAmmoCount: 1
+  maxAmmoCount: 0
+  hasInfiniteAmmo: 1
+  fullReloadTime: 1.5
+  timeBetweenShots: 1.5
+  timeForAnimator: 0.4
+  damage: 50
+  velocity: 10
+  recoil: 200
+  automatic: 1
